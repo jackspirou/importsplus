@@ -34,8 +34,8 @@ type Options struct {
 	TabIndent bool // Use tabs for indent (true if nil *Options provided)
 	TabWidth  int  // Tab width (8 if nil *Options provided)
 
-	Priority []string // Set import path prefixes that if matched, take priority
-	TempDirs []string // Set exceptions for directories prefixed with "_" and "."
+	Priority []string // Import path prefixes that if matched, take priority
+	TempDirs []string // Exceptions for directories prefixed with "_" and "."
 }
 
 // Process formats and adjusts imports for the provided file.
