@@ -35,7 +35,7 @@ type Options struct {
 	TabWidth  int  // Tab width (8 if nil *Options provided)
 
 	Priority []string // Set import path prefixes that if matched, take priority
-	TempDirs []string // Set directories starting with "_" and "." that usually are skipped.
+	TempDirs []string // Set exceptions for directories prefixed with "_" and "."
 }
 
 // Process formats and adjusts imports for the provided file.
